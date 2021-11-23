@@ -9,15 +9,16 @@ export const themeConfigDefault = {
   footerDark: false,
   headerStyle: "style1", //style2, style3
   headerFluid: true,
-  headerButton: (
+  headerButton: false,
+  /*headerButton: (
     <>
       <Link to="/#" className="btn heading-default-color gr-hover-text-primary">
         + Submit New Job
       </Link>
     </>
-  ),
+  ),*/
   headerClassName: "site-header--menu-logo-middle",
-  headerSocial: false,
+  headerSocial: true,
   headerLogoClassName: "",
   footerStyle: "style1",
   footerClassName: "",

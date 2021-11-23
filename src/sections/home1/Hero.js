@@ -2,7 +2,7 @@ import React from "react";
 import Select from "../../components/Select";
 import { Link } from "gatsby";
 import imgA from "../../assets/image/home-1/png/arrow-down-big.png";
-import backgroundImage from "../../assets/image/home-1/jpg/hero-bg-1.jpg";
+import backgroundImage from "../../assets/image/flier_opt.jpg";
 
 const defaultOptions = [
   { value: "NY", label: "New York" },
@@ -16,11 +16,13 @@ const Hero = ({ className, ...rest }) => {
     <div className={className} {...rest}>
       <div className="pt-15 pt-lg-20">
         <div
-          className="bg-img-1 bg-images pt-18 pt-lg-25 pt-xl-33 mx-lg-13 mx-xl-15 bg-gradient-2"
-          style={{ backgroundImage: `url(${backgroundImage})` }}
+          className="bg-img-1 bg-images pt-10 pt-lg-5 pt-xl-5 mx-lg-13 mx-xl-15 "
+         
         >
+          <img className="flier-image" src={backgroundImage} />
+           
           <div className="container">
-            <div className="row">
+            {/*<div className="row">
               <div className="col-xl-6 col-lg-7 col-md-8">
                 <div className="dark-mode-texts">
                   <h1 className="font-size-12 mb-8">
@@ -36,10 +38,15 @@ const Hero = ({ className, ...rest }) => {
                   </Link>
                 </div>
               </div>
-            </div>
-            <div className="row">
+            </div>*/}
+           <div className="row"> 
               <div className="col-xl-12">
-                <div className="mt-13 mt-lg-18 mt-xl-23 w-100 shadow-1">
+                <div className="mt-13 mt-lg-18 mt-xl-23 w-100"> 
+                
+                </div>
+              </div> 
+            </div>
+                {/*
                   <form
                     action="/"
                     className="search-form-one"
@@ -59,8 +66,9 @@ const Hero = ({ className, ...rest }) => {
                             <i className="icon icon-zoom-2 text-bali-gray font-weight-bold"></i>
                           </span>
                         </div>
+                         */}
                         {/* <!-- .select-city starts --> */}
-                        <div className="form-group border-top-dotted mb-0 w-100 w-lg-50 position-relative pt-5 pb-6 pt-lg-9 pb-lg-10 py-lg-0 d-flex align-items-center">
+                         {/*<div className="form-group border-top-dotted mb-0 w-100 w-lg-50 position-relative pt-5 pb-6 pt-lg-9 pb-lg-10 py-lg-0 d-flex align-items-center">
                           <Select
                             options={defaultOptions}
                             className="h-100 arrow-3 focus-reset w-100 text-dark-cloud hero-search-select font-size-5 pl-7"
@@ -73,9 +81,9 @@ const Hero = ({ className, ...rest }) => {
                           <span className="form-icon font-size-5 absolute-top-left">
                             <i className="icon icon-pin-3 text-bali-gray font-weight-bold"></i>
                           </span>
-                        </div>
+                        </div> */}
                         {/* <!-- ./select-city ends --> */}
-                      </div>
+                       {/*</div>
                       <div className="button-block">
                         <button className="btn btn-primary line-height-reset btn-hero-btn rounded-0 w-100 w-lg-inherit font-weight-medium">
                           Search Job
@@ -85,9 +93,15 @@ const Hero = ({ className, ...rest }) => {
                   </form>
                 </div>
               </div>
-            </div>
+            </div>*/} 
           </div>
+       
         </div>
+      </div>
+
+      <div className=" cognito-form-embed">
+        <iframe src="https://www.cognitoforms.com/f/wAGBTiw-KEePRbvvJ8uMIw/1" height="900"></iframe>
+        <script src="https://www.cognitoforms.com/f/iframe.js"></script>
       </div>
     </div>
   );

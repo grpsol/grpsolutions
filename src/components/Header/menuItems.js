@@ -1,5 +1,5 @@
 export const menuItems = [
-         {
+         /*{
            name: "demos",
            label: "Demos",
            items: [
@@ -48,10 +48,10 @@ export const menuItems = [
                ],
              },
            ],
-         },
+         },*/
          {
-           name: "https://uxtheme.net/product-support/",
-           label: "Support",
+           name: "https://www.facebook.com/Garden-Route-Property-Solutions-102532348579773",
+           label: "Find us on Facebook",
            isExternal: true,
          },
        ];

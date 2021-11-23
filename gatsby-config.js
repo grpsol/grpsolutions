@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Finity Gatsby`,
+    title: `Garden Route Property Solutions`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
