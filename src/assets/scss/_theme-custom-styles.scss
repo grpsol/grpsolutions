@@ -88,4 +88,17 @@
     width:100%;
     background:#1076ad;
     border:none;
+    min-height:1000px!important;
+}
+
+@media (max-width:1050px) {
+    .cognito-form-embed iframe {
+        padding-left:5%;
+        padding-right:5%;
+    }
+}
+@media (max-width:614px) {
+    .cognito-form-embed iframe {
+        min-height:1050px!important;   
+    }
 }
